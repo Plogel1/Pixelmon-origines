@@ -2,10 +2,10 @@
     "name": "Pixelmon-Origines",
     "preductname": "Pixelmon-Origines Launcher !",
     "version": "1.2.9",
-    "description": "Launcher Mincraft custom (crack, premium)",
+    "description": "Launcher Mincraft",
     "main": "src/app.js",
     "author": "plogel",
-    "url": "https://linkpk.fr/pixelmon_launcher_conf/",
+    "url": "http://127.0.0.1/test/",
     "engines": {
         "node": "^18.x.x"
     },
