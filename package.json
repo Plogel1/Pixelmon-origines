@@ -1,11 +1,11 @@
 {
-    "name": "Selvania-Launcher",
-    "preductname": "Selvania Launcher",
-    "version": "1.2.4",
+    "name": "Pixelmon-Origines",
+    "preductname": "Pixelmon-Origines Launcher",
+    "version": "1.2.5",
     "description": "Launcher Mincraft custom (crack, premium)",
     "main": "src/app.js",
     "author": "Luuxis",
-    "url": "http://craftdium.ml/launcherSelvania",
+    "url": "https://linkpk.fr/pixelmon_launcher_conf/",
     "engines": {
         "node": "^18.x.x"
     },
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/luuxis/Selvania-Launcher.git"
+        "url": "git+https://github.com/Plogel1/Pixelmon-origines.git"
     }
 }
