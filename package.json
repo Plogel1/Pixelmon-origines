@@ -1,11 +1,11 @@
 {
     "name": "Pixelmon-Origines",
     "preductname": "Pixelmon-Origines Launcher !",
-    "version": "1.2.10",
+    "version": "1.2.11",
     "description": "Launcher Mincraft",
     "main": "src/app.js",
     "author": "plogel",
-    "url": "http://127.0.0.1/test/",
+    "url": "http://localhost/test",
     "engines": {
         "node": "^18.x.x"
     },
