@@ -133,6 +133,7 @@
     opacity: 1;
 }
 
+
 .news-header {
     position: relative;
     top: 0px;
@@ -143,6 +144,27 @@
     border-radius: 10px 10px 0px 0px;
     transition: color .2s, filter .2s;
 }
+
+
+.discord-btn {
+    position: absolute;
+    top: 15px;
+    right: 85px;
+    width: 60px;
+    height: 40px;
+    background: url("../../images/discord-btn.png") no-repeat center;
+    background-size: contain;
+}
+
+.discord-btn {
+    color: rgba(245, 245, 245, 0);
+    text-decoration: none;
+}
+
+.discord-btn:hover {
+    color: rgba(245, 245, 245, 0);
+    text-decoration: none;
+} 
 
 .title {
     position: absolute;
