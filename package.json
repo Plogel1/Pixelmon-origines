@@ -1,7 +1,7 @@
 {
     "name": "Pixelmon-Origines",
     "preductname": "Pixelmon-Origines Launcher",
-    "version": "1.3.8",
+    "version": "1.4.0",
     "description": "Launcher Mincraft",
     "main": "src/app.js",
     "author": "plogel",
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Plogel1/Pixelmon-origines.git"
+        "url": "git+https://github.com/Plogel1/origines.git"
     }
 }
