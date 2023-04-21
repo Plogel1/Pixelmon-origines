@@ -1,6 +1,6 @@
 @import "font.css";
 body {
-    background-color: #000000;
+    background: linear-gradient(#00000010, #00000010), url("../images/background/light.png") black no-repeat center center scroll;
     font-family: "Poppins";
     letter-spacing: 0px;
     -webkit-app-region: drag;
