@@ -1,10 +1,10 @@
 {
-    "name": "Pixelmon-Origines",
-    "preductname": "Pixelmon-Origines Launcher",
-    "version": "1.4.7",
-    "description": "Launcher Mincraft",
+    "name": "Uniscadia",
+    "preductname": "Uniscadia",
+    "version": "1.5.0",
+    "description": "Uniscadia",
     "main": "src/app.js",
-    "author": "plogel",
+    "author": "Glogel",
     "url": "https://pixelmon-origines.fr/public/pixelmon_launcher_conf/",
     "engines": {
         "node": "^18.x.x"
@@ -20,7 +20,7 @@
     },
     "dependencies": {
         "electron-updater": "^5.0.1",
-        "minecraft-java-core": "^3.1.1",
+        "minecraft-java-core": "^3.4.3",
         "node-fetch": "^2.6.7"
     },
     "devDependencies": {
@@ -32,6 +32,6 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Plogel1/origines.git"
+         "url": "git+https://github.com/Plogel1/origines.git"
     }
 }

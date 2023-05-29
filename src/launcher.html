@@ -1,29 +1,60 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="assets/css/launcher.css">
-    </head>
-    <body class="hide">
-        <div class="dragbar"></div>
-        <div class="frame">
-            <div id="minimize" class="button-frame icon-minimize"></div>
-            <div id="maximize" class="button-frame icon-maximize"></div>
-            <div id="close" class="button-frame icon-close"></div>
-        </div>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/launcher.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            user-select: none;
+            background: linear-gradient(#00000010, #00000010);
+            resize: none;
+        }       
+    </style>
+</head>
+<body class="hide">
+    <div class="dragbar"></div>
+    <div class="frame">
+        <div id="minimize" class="button-frame icon-minimize"></div>
+        <div id="maximize" class="button-frame icon-maximize"></div>
+        <div id="close" class="button-frame icon-close"></div>
+    </div>
 
-        <div class="preload-content">
-            <div class="preload-progress">
-                <span class="dot"></span>
-                <div class="dots">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
+    <div class="preload-content">
+        <div class="preload-progress">
+            <span class="dot"></span>
+            <div class="dots">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <div class="preload-title">Chargement en cours...</div>
         </div>
+        <div class="preload-title">Chargement en cours...</div>
+    </div>
 
-        <div class="panels"></div>
-        <script src="assets/js/launcher.js" type="module"></script>
-    </body>
+    <div class="panels"></div>
+    <script src="assets/js/launcher.js" type="module"></script>
+    <script>
+        var images = [
+            "image1.png",
+            "image2.png",
+            "image3.png",
+            "image4.png",
+            "image5.png",
+            "image6.png",
+        ];
+        var randomIndex = Math.floor(Math.random() * images.length);
+        var randomImage = images[randomIndex];
+        document.body.style.backgroundImage = "url('assets/images/" + randomImage + "')";
+
+        window.addEventListener("resize", function() {
+            if (window.innerWidth !== 800 || window.innerHeight !== 600) {
+                window.resizeTo(800, 600);
+            }
+        });
+
+    </script>
+</body>
 </html>

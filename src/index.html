@@ -2,6 +2,16 @@
     <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="assets/css/index.css">
+        <style>
+           body {
+            margin: 0;
+            padding: 0;
+            background-size: cover;
+            user-select: none;
+            background: linear-gradient(#00000010, #00000010);
+            resize: none;
+        }
+        </style>
     </head>
     <body>
         <div id="splash" style="display:none">
@@ -12,5 +22,28 @@
             <progress value="0" max="0"></progress>
         </div>
         <script src="assets/js/index.js" type="module"></script>
+        <script>
+            function getRandomImage() {
+                var images = [
+                "image1.png",
+                "image2.png",
+                "image3.png",
+                "image4.png",
+                "image5.png",
+                "image6.png",
+            ];   
+                var randomIndex = Math.floor(Math.random() * images.length);
+                var randomImage = images[randomIndex];
+    
+                return randomImage;
+            }
+    
+            function loadRandomImage() {
+                var randomImage = getRandomImage();
+                document.body.style.backgroundImage = 'url("assets/images/' + randomImage + '")';
+            }
+    
+            window.addEventListener("DOMContentLoaded", loadRandomImage);
+        </script>
     </body>
 </html>
