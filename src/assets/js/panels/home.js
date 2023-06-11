@@ -35,7 +35,7 @@ class Home {
                 blockNews.innerHTML = `
                     <div class="news-header">
                         <div class="header-text">
-                            <div class="title">Aucun news n'est actuellement disponible.</div>
+                            <div class="title">Aucun news n'ai actuellement disponible.</div>
                         </div>
                     </div>
                     <div class="news-content">
@@ -115,7 +115,7 @@ class Home {
                 path: `${dataDirectory}/${process.platform == 'darwin' ? this.config.dataDirectory : `.${this.config.dataDirectory}`}`,
                 version: this.config.game_version,
                 detached: launcherSettings.launcher.close === 'close-all' ? false : true,
-                downloadFileMultiple: 300,
+                downloadFileMultiple: 100,
 
                 loader: {
                     type: this.config.loader.type,
