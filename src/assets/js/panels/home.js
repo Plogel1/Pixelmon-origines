@@ -23,7 +23,13 @@ class Home {
         this.initNews();
         this.initLaunch();
         this.initStatusServer();
-        this.initBtn();
+        this.initBtn();         
+        if (localStorage.getItem("hasOpenedBefore") === null) {
+            localStorage.setItem("hasOpenedBefore", "true");
+            setTimeout(() => {
+                document.querySelector('.settings-btn').click();
+            }, 1000); 
+        }
     }
 
     async initNews() {
@@ -196,6 +202,7 @@ class Home {
                 console.log(err);
             });
         })
+        
     }
 
     async initStatusServer() {
@@ -229,6 +236,6 @@ class Home {
         let day = date.getDate()
         let allMonth = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre']
         return { year: year, month: allMonth[month - 1], day: day }
-    }
+    }  
 }
 export default Home;
