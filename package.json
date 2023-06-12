@@ -1,10 +1,10 @@
 {
     "name": "Uniscadia",
     "preductname": "Uniscadia",
-    "version": "2.0.5",
+    "version": "2.0.4",
     "description": "Uniscadia",
     "main": "src/app.js",
-    "author": "Uniscadia",
+    "author": "Glogel",
     "url": "https://pixelmon-origines.fr/public/pixelmon_launcher_conf/",
     "engines": {
         "node": "^18.x.x"
@@ -34,6 +34,6 @@
     },
     "repository": {
         "type": "git",
-         "url": "git+https://github.com/Plogel1/Uniscadia-launcher.git"
+         "url": "git+https://github.com/Plogel1/origines.git"
     }
 }
