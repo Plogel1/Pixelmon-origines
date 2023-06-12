@@ -27,7 +27,7 @@ class Home {
         if (localStorage.getItem("hasOpenedBefore") === null) {
             localStorage.setItem("hasOpenedBefore", "true");
             setTimeout(() => {
-                document.querySelector('.settings-btn').click();
+                changePanel('settings');
             }, 1000); 
         }
     }
